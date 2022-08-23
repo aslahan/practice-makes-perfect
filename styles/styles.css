@@ -100,9 +100,28 @@ header {
     text-align: center;
 }
 
+.fourth-section {
+    background-color: #e5e7eb;
+}
+
 .quote-section {
     width: 960px;
     margin: auto;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author-of-quote {
+    margin-top: 10px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
