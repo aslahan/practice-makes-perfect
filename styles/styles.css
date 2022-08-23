@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 header {
@@ -121,6 +122,38 @@ header {
     margin-top: 10px;
     text-align: end;
     font-size: 24px;
+    font-weight: bold;
+}
+
+.fiveth-section {
+    width: 960px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.action-div {
+    padding: 40px 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sign-up {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 40px;
+    cursor: pointer;
+    font-size: 16px;
     font-weight: bold;
 }
 
